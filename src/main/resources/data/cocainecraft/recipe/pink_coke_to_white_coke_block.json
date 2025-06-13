@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": ["cocainecraft:cocaine_block","minecraft:pink_dye"],
+    "result": {
+        "id": "cocainecraft:pink_cocaine_block",
+        "count": 1
+    },
+    "group": "stuff"
+}

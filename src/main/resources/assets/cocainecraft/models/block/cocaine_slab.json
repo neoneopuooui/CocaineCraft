@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "all": "cocainecraft:block/cocaine_slab"
+  }
+}

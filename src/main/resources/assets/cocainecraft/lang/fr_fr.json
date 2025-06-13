@@ -1,0 +1,15 @@
+{
+  "item.cocainecraft.pink_cocaine": "Cocaine Rose",
+  "item.cocainecraft.sober_pill": "Pillule Antidote",
+  "item.cocainecraft.cocaine_block": "Block de Cocaine",
+  "item.cocainecraft.crackhead_computer": "Ordinateur Crackhead",
+  "item.cocainecraft.pink_cocaine_block": "Bloc de Cocaine Rose",
+  "item.cocainecraft.cocaine_slab": "Dalle de Cocaine",
+  "item.cocainecraft.totem_of_cocaine": "Totem de Cocaine",
+  "itemgroup.cocainecraft.cocainecraft": "CocaineCraft",
+  "dialogue.cocainecraft.cocaine": "<%1$s> aîe- j'en ai pris trop",
+  "dialogue.cocainecraft.soberpill": "<%1$s> Je vais beaucoup mieux!",
+  "dialogue.cocainecraft.soberpill_fail": "<%1$s> Je suis même pas sous drogue.. Pourquoi j'ai fait ça?",
+  "effect.cocainecraft.cocaine_status": "Cocaine",
+  "death.attack.overdose": "%1$s est mort d'une Overdose!"
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " / ",
+        " G "
+    ],
+    "key": {
+        "#": "minecraft:iron_ingot",
+        "/": "minecraft:sugar",
+        "G": "minecraft:pink_dye"
+    },
+    "result": {
+        "id": "cocainecraft:sober_pill",
+        "count": 8
+    },
+    "group": "stuff"
+}

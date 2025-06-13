@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#R#",
+        "RPR",
+        "#R#"
+    ],
+    "key": {
+        "#": "cocainecraft:sober_pill",
+        "R": "minecraft:redstone",
+        "P": "minecraft:totem_of_undying"
+    },
+    "result": {
+        "id": "cocainecraft:totem_of_cocaine",
+        "count": 1
+    },
+    "group": "stuff"
+}

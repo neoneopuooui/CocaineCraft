@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "P/G",
+        "   "
+    ],
+    "key": {
+        "#": "minecraft:bone_meal",
+        "P": "minecraft:pink_dye",
+        "/": "minecraft:blaze_rod",
+        "G": "minecraft:glowstone_dust"
+    },
+    "result": {
+        "id": "cocainecraft:pink_cocaine",
+        "count": 14
+    },
+    "group": "stuff"
+}

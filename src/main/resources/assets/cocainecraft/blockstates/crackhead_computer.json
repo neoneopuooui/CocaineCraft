@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"facing=north,running=false": { "model": "cocainecraft:block/crackhead_computer" },
+		"facing=south,running=false": { "model": "cocainecraft:block/crackhead_computer", "y": 180 },
+		"facing=west,running=false":  { "model": "cocainecraft:block/crackhead_computer", "y": 270 },
+		"facing=east,running=false":  { "model": "cocainecraft:block/crackhead_computer", "y": 90 },
+
+		"facing=north,running=true": { "model": "cocainecraft:block/crackhead_computer_on" },
+		"facing=south,running=true": { "model": "cocainecraft:block/crackhead_computer_on", "y": 180 },
+		"facing=west,running=true":  { "model": "cocainecraft:block/crackhead_computer_on", "y": 270 },
+		"facing=east,running=true":  { "model": "cocainecraft:block/crackhead_computer_on", "y": 90 }
+	}
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#P#",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:diamond",
+        "P": "cocainecraft:pink_cocaine"
+    },
+    "result": {
+        "id": "cocainecraft:crackhead_computer",
+        "count": 1
+    },
+    "group": "stuff"
+}

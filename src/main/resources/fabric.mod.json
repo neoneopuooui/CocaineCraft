@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "cocainecraft",
+	"version": "${version}",
+	"name": "CocaineCraft",
+	"description": "spake cake la coke c'est super",
+	"authors": [
+		"Selavyn"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/cocainecraft/versions",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cocainecraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.selavyn.cocainecraft.CocaineCraft"
+		],
+		"fabric-datagen": [
+			"net.selavyn.cocainecraft.CocaineCraftDataGenerator"
+		]
+	},
+	"mixins": [
+		"cocainecraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
