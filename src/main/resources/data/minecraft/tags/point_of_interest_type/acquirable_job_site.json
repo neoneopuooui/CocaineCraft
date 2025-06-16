@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "cocainecraft:deal_poi",
+      "required": false
+    },
+    {
+      "id": "cocainecraft:vape_poi",
+      "required": false
+    }
+  ]
+}

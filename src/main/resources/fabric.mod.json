@@ -18,6 +18,9 @@
 		"main": [
 			"net.selavyn.cocainecraft.CocaineCraft"
 		],
+		"client": [
+			"net.selavyn.cocainecraft.CocaineCraftClient"
+		],
 		"fabric-datagen": [
 			"net.selavyn.cocainecraft.CocaineCraftDataGenerator"
 		]

@@ -8,6 +8,7 @@ import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
@@ -69,10 +70,12 @@ public class ComputerBlock extends HorizontalFacingBlock {
     @Override
     public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         if (state.get(RUNNING)) {
-            for (ServerPlayerEntity usr : world.getPlayers()) {
+            dropStack(world, pos, new ItemStack(ModItems.PINK_COCAINE, 1));
+            dropStack(world, pos, new ItemStack(ModItems.SOBER_PILL, 1));
+            /*for (ServerPlayerEntity usr : world.getPlayers()) {
                 usr.giveItemStack(new ItemStack(ModItems.PINK_COCAINE));
                 usr.giveItemStack(new ItemStack(ModItems.SOBER_PILL));
-            }
+            }*/
             // Replanifie le tick pour continuer tant que c’est allumé
             world.scheduleBlockTick(pos, this, 25*20);
         } else {

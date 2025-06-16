@@ -43,8 +43,8 @@ import org.slf4j.LoggerFactory;
 import javax.swing.*;
 import java.util.Optional;
 
-public class PinkCocaineItem extends Item {
-    public PinkCocaineItem(Settings settings) {
+public class WeedItem extends Item {
+    public WeedItem(Settings settings) {
         super(settings);
     }
     public static final Logger LOGGER = LoggerFactory.getLogger(CocaineCraft.MOD_ID);
@@ -54,7 +54,7 @@ public class PinkCocaineItem extends Item {
         LOGGER.info("TotemCheck: " + String.valueOf(player.getInventory().getSlotWithStack(new ItemStack(ModItems.TOTEM_OF_COCAINE))));
         if (world.isClient) {
             if (player.getInventory().getSlotWithStack(new ItemStack(ModItems.TOTEM_OF_COCAINE)) == -1) {
-                MinecraftClient.getInstance().inGameHud.getChatHud().addMessage(Text.translatable("dialogue.cocainecraft.cocaine", user.getName()));
+                //MinecraftClient.getInstance().inGameHud.getChatHud().addMessage(Text.translatable("dialogue.cocainecraft.cocaine", user.getName()));
             }
         }
         if (!world.isClient) {
@@ -74,9 +74,9 @@ public class PinkCocaineItem extends Item {
             //PlayerEntity player = world.getClosestPlayer(user, 3);
 
 
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 1000, 1, false, false));
-            user.addStatusEffect(new StatusEffectInstance(ModStatusEffects.COCAINE_STATUS, 1000, 0));
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 1000, 2, false, false));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 1000, 1, false, false));
+            user.addStatusEffect(new StatusEffectInstance(ModStatusEffects.WEED_STATUS, 1000, 0));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 1000, 2, false, false));
         }
 
         return super.finishUsing(stack, world, user);

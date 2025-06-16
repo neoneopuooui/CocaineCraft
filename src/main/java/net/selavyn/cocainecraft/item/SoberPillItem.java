@@ -27,7 +27,7 @@ public class SoberPillItem extends Item {
 
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
-        if (!user.hasStatusEffect(ModStatusEffects.COCAINE_STATUS)) {
+        if (!user.hasStatusEffect(ModStatusEffects.COCAINE_STATUS) && !user.hasStatusEffect(ModStatusEffects.WEED_STATUS)) {
             if (!world.isClient) { // Make sure this runs on server only
                 DamageSource damageSource = new DamageSource(
                         world.getRegistryManager()

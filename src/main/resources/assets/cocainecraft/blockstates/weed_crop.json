@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "cocainecraft:block/weed_crop_stage0"
+    },
+    "age=1": {
+      "model": "cocainecraft:block/weed_crop_stage1"
+    },
+    "age=2": {
+      "model": "cocainecraft:block/weed_crop_stage2"
+    },
+    "age=3": {
+      "model": "cocainecraft:block/weed_crop_stage3"
+    },
+    "age=4": {
+      "model": "cocainecraft:block/weed_crop_stage4"
+    }
+  }
+}

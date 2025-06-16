@@ -1,17 +1,18 @@
 package net.selavyn.cocainecraft.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.selavyn.cocainecraft.CocaineCraft;
+import net.selavyn.cocainecraft.block.custom.WeedCropBlock;
 import net.selavyn.cocainecraft.item.ModItemGroups;
 
 import java.util.function.Function;
@@ -64,6 +65,13 @@ public class ModBlocks {
 			ComputerBlock::new,
 			AbstractBlock.Settings.create().nonOpaque().strength(1.0F),
 			true
+	);
+
+	public static final Block WEED_CROP = register(
+			"weed_crop",
+			WeedCropBlock::new,
+			Block.Settings.create().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY).nonOpaque(),
+			false
 	);
 
 	public static void initialize() {

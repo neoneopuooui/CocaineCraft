@@ -6,10 +6,18 @@
   "item.cocainecraft.pink_cocaine_block": "Pink Cocaine Block",
   "item.cocainecraft.cocaine_slab": "Cocaine Slab",
   "item.cocainecraft.totem_of_cocaine": "Totem of Cocaine",
+  "item.cocainecraft.dealer_spawn_egg": "Drug Dealer Spawn Egg",
+  "item.cocainecraft.weed": "Weed",
+  "item.cocainecraft.weed_seeds": "Weed Seeds",
+  "item.cocainecraft.weed_crop": "Growing Weed",
   "itemgroup.cocainecraft.cocainecraft": "CocaineCraft",
   "dialogue.cocainecraft.cocaine": "<%1$s> ugh- took too much",
   "dialogue.cocainecraft.soberpill": "<%1$s> I'm much better!",
   "dialogue.cocainecraft.soberpill_fail": "<%1$s> I'm not even on drugs.. Why did i do that?",
-  "effect.cocainecraft.cocaine_status": "Cocaine",
-  "death.attack.overdose": "%1$s died from an Overdose!"
+  "effect.cocainecraft.cocaine_status": "On Cocaine",
+  "effect.cocainecraft.weed_status": "On Weed",
+  "death.attack.overdose": "%1$s died from an Overdose!",
+  "entity.minecraft.villager.cocainecraft.dealer": "Drug Dealer",
+  "profession.cocainecraft.dealer": "Drug Dealer",
+  "sound.cocainecraft.minecraft_on_cocaine": "Drug Voices"
 }

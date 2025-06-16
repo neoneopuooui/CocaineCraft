@@ -6,10 +6,18 @@
   "item.cocainecraft.pink_cocaine_block": "Bloc de Cocaine Rose",
   "item.cocainecraft.cocaine_slab": "Dalle de Cocaine",
   "item.cocainecraft.totem_of_cocaine": "Totem de Cocaine",
+  "item.cocainecraft.dealer_spawn_egg": "Oeuf D'apparition de Dealer de Drogue",
+  "item.cocainecraft.weed": "Canabis",
+  "item.cocainecraft.weed_seeds": "Graines de Canabis",
+  "item.cocainecraft.weed_crop": "Canabis en train de Pousser",
   "itemgroup.cocainecraft.cocainecraft": "CocaineCraft",
   "dialogue.cocainecraft.cocaine": "<%1$s> aîe- j'en ai pris trop",
   "dialogue.cocainecraft.soberpill": "<%1$s> Je vais beaucoup mieux!",
   "dialogue.cocainecraft.soberpill_fail": "<%1$s> Je suis même pas sous drogue.. Pourquoi j'ai fait ça?",
-  "effect.cocainecraft.cocaine_status": "Cocaine",
-  "death.attack.overdose": "%1$s est mort d'une Overdose!"
+  "effect.cocainecraft.cocaine_status": "Sous Cocaine",
+  "effect.cocainecraft.weed_status": "Sous Weed",
+  "death.attack.overdose": "%1$s est mort d'une Overdose!",
+  "entity.minecraft.villager.cocainecraft.dealer": "Dealer de Drogue",
+  "profession.cocainecraft.dealer": "Dealer de Drogue",
+  "sound.cocainecraft.minecraft_on_cocaine": "Voix de Drogues"
 }

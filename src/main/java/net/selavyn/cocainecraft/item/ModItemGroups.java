@@ -22,6 +22,10 @@ public class ModItemGroups {
                         entries.add(ModItems.PINK_COCAINE);
                         entries.add(ModItems.SOBER_PILL);
                         entries.add(ModItems.TOTEM_OF_COCAINE);
+                        //entries.add(ModItems.DEALER_SPAWN_EGG);
+                        entries.add(ModItems.VILLAGER_KILLER);
+                        entries.add(ModItems.WEED);
+                        entries.add(ModItems.WEED_SEEDS);
                     }).build());
 
 
