@@ -10,6 +10,7 @@
   "item.cocainecraft.weed": "Weed",
   "item.cocainecraft.weed_seeds": "Weed Seeds",
   "item.cocainecraft.weed_crop": "Growing Weed",
+  "item.cocainecraft.vape": "Vape",
   "itemgroup.cocainecraft.cocainecraft": "CocaineCraft",
   "dialogue.cocainecraft.cocaine": "<%1$s> ugh- took too much",
   "dialogue.cocainecraft.soberpill": "<%1$s> I'm much better!",
@@ -18,6 +19,8 @@
   "effect.cocainecraft.weed_status": "On Weed",
   "death.attack.overdose": "%1$s died from an Overdose!",
   "entity.minecraft.villager.cocainecraft.dealer": "Drug Dealer",
-  "profession.cocainecraft.dealer": "Drug Dealer",
-  "sound.cocainecraft.minecraft_on_cocaine": "Drug Voices"
+  "profession.cocainecraft.dealer": "The Drug Dealer",
+  "profession.cocainecraft.vaper": "The Vaper",
+  "sound.cocainecraft.minecraft_on_cocaine": "Drug Voices",
+  "sound.cocainecraft.vape_sound": "Vape Breathe"
 }

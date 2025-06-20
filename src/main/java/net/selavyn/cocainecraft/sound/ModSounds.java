@@ -20,6 +20,8 @@ public class ModSounds {
     // ITEM_METAL_WHISTLE is the name of the custom sound event
     // and is called in the mod to use the custom sound
     public static SoundEvent MINECRAFT_ON_COCAINE = registerSound("minecraft_on_cocaine");
+    public static SoundEvent NULL = registerSound("null");
+    public static SoundEvent VAPE_SOUND = registerSound("vape_sound");
 
     public static SoundInstance cokeSound = PositionedSoundInstance.master(MINECRAFT_ON_COCAINE, 1.0F, 0.5F);
     // actual registration of all the custom SoundEvents

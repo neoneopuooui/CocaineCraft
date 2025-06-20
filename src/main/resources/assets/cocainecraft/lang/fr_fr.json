@@ -10,6 +10,7 @@
   "item.cocainecraft.weed": "Canabis",
   "item.cocainecraft.weed_seeds": "Graines de Canabis",
   "item.cocainecraft.weed_crop": "Canabis en train de Pousser",
+  "item.cocainecraft.vape": "Puff",
   "itemgroup.cocainecraft.cocainecraft": "CocaineCraft",
   "dialogue.cocainecraft.cocaine": "<%1$s> aîe- j'en ai pris trop",
   "dialogue.cocainecraft.soberpill": "<%1$s> Je vais beaucoup mieux!",
@@ -18,6 +19,8 @@
   "effect.cocainecraft.weed_status": "Sous Weed",
   "death.attack.overdose": "%1$s est mort d'une Overdose!",
   "entity.minecraft.villager.cocainecraft.dealer": "Dealer de Drogue",
-  "profession.cocainecraft.dealer": "Dealer de Drogue",
-  "sound.cocainecraft.minecraft_on_cocaine": "Voix de Drogues"
+  "profession.cocainecraft.dealer": "Le dealer de Drogue",
+  "profession.cocainecraft.vaper": "Le Puffeur",
+  "sound.cocainecraft.minecraft_on_cocaine": "Voix de Drogues",
+  "sound.cocainecraft.vape_sound": "Respiration de Puff"
 }

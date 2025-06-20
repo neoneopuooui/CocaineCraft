@@ -89,7 +89,7 @@ public class ModVillagers {
         TradeOfferHelper.registerVillagerOffers(ModVillagers.VAPER_KEY, 1, factories -> {
             factories.add((entity, random) -> new TradeOffer(
                     new TradedItem(Items.EMERALD,1),
-                    new ItemStack(Items.ARROW , 1), 5000, 3, 0));
+                    new ItemStack(ModItems.VAPE , 1), 5000, 3, 0));
         });
     }
 }

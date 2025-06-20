@@ -10,4 +10,5 @@ import net.selavyn.cocainecraft.CocaineCraft;
 
 public class ModDamageSources {
     public static final RegistryKey<DamageType> OVERDOSE = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier.of(CocaineCraft.MOD_ID, "overdose"));
+    public static final RegistryKey<DamageType> GENERIC = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier.of(CocaineCraft.MOD_ID, "generic"));
 }

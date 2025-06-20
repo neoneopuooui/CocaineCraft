@@ -2,5 +2,9 @@
   "minecraft_on_cocaine": {
     "subtitle": "sound.cocainecraft.minecraft_on_cocaine",
     "sounds": ["cocainecraft:minecraft_on_cocaine"]
+  },
+  "vape_sound": {
+    "subtitle": "sound.cocainecraft.vape_sound",
+    "sounds": ["cocainecraft:vape_sound"]
   }
 }

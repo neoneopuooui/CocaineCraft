@@ -12,14 +12,17 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.consume.RemoveEffectsConsumeEffect;
+import net.minecraft.item.consume.UseAction;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.selavyn.cocainecraft.CocaineCraft;
 import net.selavyn.cocainecraft.block.ModBlocks;
 import net.selavyn.cocainecraft.entity.effect.ModStatusEffects;
+import net.selavyn.cocainecraft.sound.ModSounds;
 
 import java.util.function.Function;
 
@@ -47,6 +50,13 @@ public class ModItems {
     public static final ConsumableComponent LA_COKE_C_SUPER_FOOD_CONSUMABLE_COMPONENT = ConsumableComponents.food()
             // The duration is in ticks, 20 ticks = 1 second
             .build();
+    public static final ConsumableComponent VAPE_CONSUMABLE_COMPONENT = ConsumableComponents.food()
+            // The duration is in ticks, 20 ticks = 1 second
+            .sound(Registries.SOUND_EVENT.getEntry(ModSounds.NULL))
+            .finishSound(Registries.SOUND_EVENT.getEntry(ModSounds.VAPE_SOUND))
+            .consumeParticles(false)
+            .useAction(UseAction.DRINK)
+            .build();
     public static final ConsumableComponent SOBER_PILL_FOOD_CONSUMABLE_COMPONENT = ConsumableComponents.food()
             .consumeEffect(new RemoveEffectsConsumeEffect(StatusEffects.NAUSEA))
             .consumeEffect(new RemoveEffectsConsumeEffect(StatusEffects.SPEED))
@@ -58,6 +68,7 @@ public class ModItems {
             .build();
     public static final FoodComponent NORMAL_FOOD_COMPONENT = new FoodComponent.Builder()
             .alwaysEdible()
+            .nutrition(0)
             .build();
 
 
@@ -66,6 +77,7 @@ public class ModItems {
     public static final Item TOTEM_OF_COCAINE = register("totem_of_cocaine", TotemCocaineItem::new, new Item.Settings());
     public static final Item WEED_SEEDS = register("weed_seeds", createBlockItemWithUniqueName(ModBlocks.WEED_CROP), new Item.Settings());
     public static final Item WEED = register("weed", WeedItem::new, new Item.Settings().food(NORMAL_FOOD_COMPONENT, LA_COKE_C_SUPER_FOOD_CONSUMABLE_COMPONENT));
+    public static final Item VAPE = register("vape", VapeItem::new, new Item.Settings().food(NORMAL_FOOD_COMPONENT, VAPE_CONSUMABLE_COMPONENT));
 
     //public static final Item DEALER_SPAWN_EGG = register("dealer_spawn_egg", DealerSpawnEggItem::new, new Item.Settings());
 

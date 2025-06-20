@@ -26,6 +26,7 @@ public class ModItemGroups {
                         entries.add(ModItems.VILLAGER_KILLER);
                         entries.add(ModItems.WEED);
                         entries.add(ModItems.WEED_SEEDS);
+                        entries.add(ModItems.VAPE);
                     }).build());
 
 
